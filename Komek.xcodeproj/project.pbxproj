@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4BBD44208CDF9D006D9296 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BBD43208CDF9C006D9296 /* SignInViewController.swift */; };
+		3E4BBD46208CE03D006D9296 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BBD45208CE03D006D9296 /* SignUpViewController.swift */; };
+		3E69C8B8208DDA310007B325 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69C8B7208DDA310007B325 /* ProfileViewController.swift */; };
+		3E74C726208E58A6004F5E44 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74C725208E58A6004F5E44 /* MapViewController.swift */; };
+		3E74C728208EF5ED004F5E44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E74C727208EF5EC004F5E44 /* GoogleService-Info.plist */; };
+		3E74C72A208EF976004F5E44 /* SignIn2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74C729208EF975004F5E44 /* SignIn2ViewController.swift */; };
+		3E76F15C208DC0060099BAC2 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E76F15B208DC0050099BAC2 /* FindViewController.swift */; };
 		3EC176742085188100B4B72D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC176732085188100B4B72D /* AppDelegate.swift */; };
 		3EC176762085188100B4B72D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC176752085188100B4B72D /* ViewController.swift */; };
 		3EC176792085188100B4B72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC176772085188100B4B72D /* Main.storyboard */; };
 		3EC1767B2085188100B4B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1767A2085188100B4B72D /* Assets.xcassets */; };
 		3EC1767E2085188100B4B72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1767C2085188100B4B72D /* LaunchScreen.storyboard */; };
+		3EEC27C4208F3BFF0038D906 /* Pods_Komek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FA538BD12E5B2E28E3CA4 /* Pods_Komek.framework */; };
+		3EEC284820900D890038D906 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC284720900D860038D906 /* ProfilePageViewController.swift */; };
+		3EEC284A209018520038D906 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC2849209018520038D906 /* UsersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E4BBD43208CDF9C006D9296 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3E4BBD45208CE03D006D9296 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3E69C8B7208DDA310007B325 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3E74C725208E58A6004F5E44 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3E74C727208EF5EC004F5E44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E74C729208EF975004F5E44 /* SignIn2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn2ViewController.swift; sourceTree = "<group>"; };
+		3E76F15B208DC0050099BAC2 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		3EC176702085188100B4B72D /* Komek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Komek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC176732085188100B4B72D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC176752085188100B4B72D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,12 @@
 		3EC1767A2085188100B4B72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC1767D2085188100B4B72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC1767F2085188100B4B72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEC27C2208F35A10038D906 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3EEC284720900D860038D906 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		3EEC2849209018520038D906 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		55FEB1A6B9958DE944656B5A /* Pods-Komek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Komek.release.xcconfig"; path = "Pods/Target Support Files/Pods-Komek/Pods-Komek.release.xcconfig"; sourceTree = "<group>"; };
+		6FB025F4A5DD1326F3575870 /* Pods-Komek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Komek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Komek/Pods-Komek.debug.xcconfig"; sourceTree = "<group>"; };
+		D08FA538BD12E5B2E28E3CA4 /* Pods_Komek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Komek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEC27C4208F3BFF0038D906 /* Pods_Komek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,8 @@
 			children = (
 				3EC176722085188100B4B72D /* Komek */,
 				3EC176712085188100B4B72D /* Products */,
+				54BD2DBE15845674434D83FB /* Pods */,
+				FDF1B5AFEA154E7052F79BCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +86,35 @@
 				3EC1767A2085188100B4B72D /* Assets.xcassets */,
 				3EC1767C2085188100B4B72D /* LaunchScreen.storyboard */,
 				3EC1767F2085188100B4B72D /* Info.plist */,
+				3E74C727208EF5EC004F5E44 /* GoogleService-Info.plist */,
+				3E4BBD43208CDF9C006D9296 /* SignInViewController.swift */,
+				3E4BBD45208CE03D006D9296 /* SignUpViewController.swift */,
+				3E76F15B208DC0050099BAC2 /* FindViewController.swift */,
+				3E69C8B7208DDA310007B325 /* ProfileViewController.swift */,
+				3E74C725208E58A6004F5E44 /* MapViewController.swift */,
+				3E74C729208EF975004F5E44 /* SignIn2ViewController.swift */,
+				3EEC284720900D860038D906 /* ProfilePageViewController.swift */,
+				3EEC2849209018520038D906 /* UsersViewController.swift */,
 			);
 			path = Komek;
+			sourceTree = "<group>";
+		};
+		54BD2DBE15845674434D83FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB025F4A5DD1326F3575870 /* Pods-Komek.debug.xcconfig */,
+				55FEB1A6B9958DE944656B5A /* Pods-Komek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDF1B5AFEA154E7052F79BCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EEC27C2208F35A10038D906 /* libsqlite3.tbd */,
+				D08FA538BD12E5B2E28E3CA4 /* Pods_Komek.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EC176822085188100B4B72D /* Build configuration list for PBXNativeTarget "Komek" */;
 			buildPhases = (
+				D598A69FB153A44AB2A0EDD3 /* [CP] Check Pods Manifest.lock */,
 				3EC1766C2085188000B4B72D /* Sources */,
 				3EC1766D2085188000B4B72D /* Frameworks */,
 				3EC1766E2085188000B4B72D /* Resources */,
+				DA5172727D923E03813B11A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,7 +146,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Бексултан";
 				TargetAttributes = {
 					3EC1766F2085188000B4B72D = {
@@ -124,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC1767E2085188100B4B72D /* LaunchScreen.storyboard in Resources */,
+				3E74C728208EF5ED004F5E44 /* GoogleService-Info.plist in Resources */,
 				3EC1767B2085188100B4B72D /* Assets.xcassets in Resources */,
 				3EC176792085188100B4B72D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +187,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D598A69FB153A44AB2A0EDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Komek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5172727D923E03813B11A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Komek/Pods-Komek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Komek/Pods-Komek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EC1766C2085188000B4B72D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E69C8B8208DDA310007B325 /* ProfileViewController.swift in Sources */,
+				3E76F15C208DC0060099BAC2 /* FindViewController.swift in Sources */,
 				3EC176762085188100B4B72D /* ViewController.swift in Sources */,
 				3EC176742085188100B4B72D /* AppDelegate.swift in Sources */,
+				3EEC284820900D890038D906 /* ProfilePageViewController.swift in Sources */,
+				3E4BBD46208CE03D006D9296 /* SignUpViewController.swift in Sources */,
+				3E4BBD44208CDF9D006D9296 /* SignInViewController.swift in Sources */,
+				3EEC284A209018520038D906 /* UsersViewController.swift in Sources */,
+				3E74C726208E58A6004F5E44 /* MapViewController.swift in Sources */,
+				3E74C72A208EF976004F5E44 /* SignIn2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +286,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +294,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +345,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,6 +385,7 @@
 		};
 		3EC176832085188100B4B72D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB025F4A5DD1326F3575870 /* Pods-Komek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +401,7 @@
 		};
 		3EC176842085188100B4B72D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FEB1A6B9958DE944656B5A /* Pods-Komek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
